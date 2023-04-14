@@ -1,0 +1,30 @@
+img{
+    width: 200px; 
+    margin-top: 50px;
+    margin-left: 100px;
+ }
+ 
+ li{
+     float: left;
+     list-style: none;
+     padding: 30px;
+ }
+ 
+ nav{
+     float: right;
+     margin-top: 50px;
+     margin-right: 150px;
+     background-color: antiquewhite;
+ }
+ a{
+     text-decoration: none;
+     font-family: fantasy;
+     color: darkblue;
+ }
+ 
+ li:hover a{
+     color: black;
+ }
+ header{
+     background-color: rgb(7, 48, 69);
+ }
