@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" cogitntent="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Grupo7</title>
     <link rel="stylesheet" href="stylo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: gray;">
     <header>
-        <div class="video">
-            <video width="1900" height="300" controls>
-            <source src="./Agencia de viaje High fly.mp4" type="video/mp4">
-            </div class ="logo">
-                <img src="img/logo.jpeg" alt="">
-            <nav class ="descrpcion">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Quienes somos</a></li>
-                     <li><a href="">Servicios</a></li>
-                     <li><a href="">Clientes</a></li>
-                    <li><a href="">Contactos</a></li>
-                
-                </ul>
-            </nav>
-    </header>  
+        <img src="img/logo.jpeg" alt="">
+            
+        <div class ="descripcion" style="display:flexbox; align-items: center;">
+            <a href="">Inicio</a>
+            <a href="/Objetivo de High Fly.pdf">Quienes somos</a>
+            <a href="https://www.coris.com.ar/asistencia-para-viajar-a/447-seguro-para-viajar-a-Europa.aspx">Servicios</a>
+            <a href="">Clientes</a>
+            <a href="">Contactos</a>    
+        </div>
+
+    </header>
+
+    <div class="titulo" style="display: flex; flex-direction: column; align-items: center;">
+    <h1> Fly High</h1>
+    <h3>Vola al Mundo</h3>
+    </div>
+
+
+<div id="desarrollo" style="display: flex; text-align: center">
+
     <div class="text-bg-info p-3" id="registro">
-        <form action="" method="post" id="form">  <!-- No estoy seguro si "action" debe ir vacío o si habría que poner algún link de fantasía donde deberían ir los datos ingresados en el formulario-->
+        <form action="" method="post" id="form"> <!-- No estoy seguro si "action" debe ir vacío o si habría que poner algún link de fantasía donde deberían ir los datos ingresados en el formulario-->
             <h1><span class="badge bg-secondary">Registrate</h1>         
             <div>                
                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required> <br>        
@@ -51,8 +52,21 @@
         
             <p>¿Ya estás registrado?</p>     
         </form>        
-    </div> 
-     
+    </div>
+    
+    <div class="video">
+        <video width="600" height="300" controls>
+        <source src="./Agencia de viaje High fly.mp4" type="video/mp4">
+    </div>
+
+</div>
+
+
+<footer style="display: flex; flex-direction: column; align-items: center">
+    <p class="texto"> &copy; 2023 Fly High Todos Los Derechos Reservados</p>
+    <p>Realizado Por los integrantes del grupo Numero 7</p>
+</footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
-    
+
+</html>  

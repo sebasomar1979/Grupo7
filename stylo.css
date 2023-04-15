@@ -1,15 +1,24 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 70px;
-    background-color: coral;
+    background-color: rgb(59, 87, 98);
 }
-.descripcion{
+.descripcion{ 
     display: flex;
+    
 }
 .logo{
     display: flex;
 }
-.video {
- display: flex;
+.descripcion a{
+    padding:10px ;
+}   
+.video{
+    padding: 0px 100px;
+    margin-top: 0px;
+    margin-bottom: ;
+}
+body{
+    background-color: firebrick;
 }
