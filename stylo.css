@@ -14,7 +14,8 @@ div{
  img{
     width: 200px; 
     margin-top: 50px;
-    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
  }
  
  li{
@@ -23,12 +24,20 @@ div{
      padding: 30px;
  }
  
- nav{
+/* nav{
      float:  right;
      margin-top: 51px;
      margin-right: 150px;
      background-color: antiquewhite;
- }
+ } */
+.nav-enlace{
+    background: antiquewhite;
+    
+    display: inline-block ;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
  a{
      text-decoration: none;
      font-family: fantasy;
@@ -40,4 +49,9 @@ div{
  }
  header{
      background-color: rgb(7, 48, 69);
+ }
+
+ .text-bg-info p-3 {
+    float: left;
+    
  }
