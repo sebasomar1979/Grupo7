@@ -4,22 +4,39 @@ header{
     height: 70px;
     background-color: rgb(59, 87, 98);
 }
+
+
 .descripcion{ 
     display: flex;
     
+      
 }
 .logo{
     display: flex;
+
 }
 .descripcion a{
     padding:10px ;
+    color: rgb(121, 152, 245);
 }   
 .video{
+    display: flex;
+    justify-content: center;
     padding: 0px 100px;
     margin-top: 0px;
-    
+
 }
 
 body{
     background-color: firebrick;
+    background-image: url(img/wallpaperbetter.com_1920x1080.jpg);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.25);
+        
+}
+.titulo{
+   font-style: italic;
+   
 }
